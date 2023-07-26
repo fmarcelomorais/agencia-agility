@@ -1,0 +1,18 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    height: 400px;
+    background-color: #eeeeee;
+/*     background-attachment: fixed;
+    background-image: url('../../images/image-about.jpg');
+    background-size: cover; */
+}
+
+.About h2{
+    margin-top: 20px;
+    color: #003B6E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

@@ -1,0 +1,23 @@
+.Display{
+    box-shadow: 1px 1px 1px #4b4b4b;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+.Display span i{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 10px;
+    
+}
+.Display span{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.Display span:hover{
+    transition: 3s;
+    color: #000;;
+}

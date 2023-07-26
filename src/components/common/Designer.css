@@ -1,0 +1,59 @@
+.Designer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    min-height: 500px;
+    background-image: url('../../images//bg-designer.png');
+    background-attachment: fixed;
+    background-size: contain;
+    flex-wrap: wrap;
+}
+
+.Designer h2{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Designer .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    min-height: 500px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 30px;
+    flex-wrap: wrap;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.Designer .box span i{
+    font-size: 1.5rem;
+    margin-right: 20px;
+    transition: 3s;
+}
+
+.Designer .box span{
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 10px;
+    transition: 2s;
+    width: 100%;
+}
+
+.Designer .box span:hover{
+   transition: 3s;
+   padding: 10px;
+   background-color: #A492C6;
+   border-radius: 10px;
+   margin-top: 5px;
+   text-align: center;
+   font-weight: 600;   
+}

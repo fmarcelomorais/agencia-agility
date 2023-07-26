@@ -1,0 +1,29 @@
+.Footer{
+    background-color:#00a8c5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;    
+}
+.Footer .box{  
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  margin: 10px; 
+}
+.Footer .box p{
+    text-align: center;
+    color: #FFF;
+}
+.Footer .box strong{    
+    color: #000000;
+    font-weight: 600;
+}
+.Footer .box strong:hover{  
+    transition: 2s;  
+    color: #FE750C;
+    font-weight: 600;
+}
